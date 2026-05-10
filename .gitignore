@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+venv/
+.venv/
+*.egg
+
+# Go
+worker-engine/worker-engine
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Node / TypeScript
+node_modules/
+dashboard/dist/
+*.tsbuildinfo
+.npm
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.docker/
+
+# Test / Coverage
+.coverage
+htmlcov/
+coverage/
+*.lcov
+.pytest_cache/
